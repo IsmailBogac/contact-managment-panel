@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+h1{
+    margin-bottom: 2rem;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: teal;
+    margin-top: 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
