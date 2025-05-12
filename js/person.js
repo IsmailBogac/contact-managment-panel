@@ -11,7 +11,7 @@ class Person{
 
 class personManager{
     constructor(){
-        this.personArr = [];
+        this.personArr = JSON.parse(localStorage.getItem("personManager")) || [];
         
     }   
     addPerson(person){
