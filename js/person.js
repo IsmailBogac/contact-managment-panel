@@ -36,6 +36,7 @@ document.getElementById("person-form").addEventListener("submit",(e) => {
         return
     }
     const reader = new FileReader(); 
+    
     reader.onload = function(){
         const photoBase64 = reader.result;
         const newUser = new Person(name,phone,email,photoBase64);
