@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <title>Admin</title>
 </head>
 <body>
 
-    <div id="passwordScreen">
 
-        <h3>Please enter your password</h3>
+
+    <div id="passwordScreen">
+        <a href="index.html" id="logOut">Back To Main </a>
+
+        <h3>LogIn panel BOSS</h3>
         
+        <input type="text" name="email" id="email">
         <input type="password" name="password" id="password">
         <button id="logIn">Log In</button>
     </div>
-    
-    <div id="adminPanel">
 
+    <div id="adminPanel">
+        <a href="index.html" id="logOut">Log out</a>
+        
         <h2>Welcome to admin panel</h2>
         <div id="admin-container"></div>
         
-        <a href="index.html">Log out</a>
     </div>
     <script src="js/admin.js"></script>
 </body>
