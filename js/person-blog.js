@@ -26,7 +26,6 @@ loginBlog.addEventListener("click", () => {
     <div class="texts">
     <p>${matchedPerson.name}</p>
     <p>${matchedPerson.email}</p>
-    <button id="changePassword">Change Password</button>
     </div>
     </div>
     `;
@@ -34,7 +33,10 @@ loginBlog.addEventListener("click", () => {
     alert("Lütfen şifre veya email'i doğru giriniz.");
     return;
   }
-});
+
+
+  });
+
 
 window.addEventListener("load", () => {
   if (localStorage.getItem("isLoggedBlog") === "true") {
