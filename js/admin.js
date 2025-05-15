@@ -28,7 +28,6 @@ window.addEventListener("load", () => {
 });
 
 document.getElementById("logOut").addEventListener("click", () => {
-  localStorage.removeItem("isLoggedIn");
   location.reload();
 });
 
